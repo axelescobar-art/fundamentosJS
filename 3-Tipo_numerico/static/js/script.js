@@ -14,7 +14,7 @@ let suma= 10 + 5; //15
 let resta= 10 - 5; //5
 let multiplicacion= 10 * 5; //50
 let division= 10/2; //5
-let modulo= 10 % 3; //1
+let modulo= 10 % 3; //1 --> resto de la division %
 let potencia= 2**3 //8
 
 console.log(`El resultado de 2 elevado a 3 en potencia es: ${2**3}.`)
@@ -35,3 +35,20 @@ console.log("Numero pequeño 5e-3:" + total);
 //6.- Operaciones combinadas
 //calculo de precios
 let precioProducto=1000;
+
+//7.- Redondo numerico
+console.log("redondeado 4,5:" + Math.round(4,6));
+console.log("redondeado 4,5:" + Math.round(4,6));
+
+//8.- numeros aleatorios
+let aleatorio= Math.random();
+let dado= Math.floor(Math.random()*6) +1;
+console.log(`tirar dados: $ {dado}`);
+
+//9.- Comparacion numerica
+let a = 10;
+let b = 5;
+console.log(a > b);
+console.log(a < b);
+console.log(a === 10);
+console.log(b === e);
